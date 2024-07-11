@@ -27,7 +27,6 @@ export function CreateActivityModal({
 			occurs_at,
 		})
 
-		closeCreateActivityModal()
 		navigate(`/trips/${tripId}`)
 	}
 
